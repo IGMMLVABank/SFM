@@ -9,6 +9,8 @@ img{
 	border: 0.0pt none!important;
 	border-radius:15px!important;
 	box-shadow:5pt 5pt 5pt grey!important;
+	height:100%!important;
+	max-height:600px!important;
 
 }
 
@@ -21,7 +23,12 @@ h2{
 	text-shadow:2pt 2pt 2pt grey!important;
 }
 
+.ulSmall{
+	font-size: 18.0pt!important;
+}
+
 .ulOne{
+	list-style-image:url("img/puce2.png")!important;
 	margin-top: 5.0pt!important;
 	font-size: 18.0pt!important;
 	background-color: #dceaea!important;
@@ -30,6 +37,7 @@ h2{
 	color:black!important;
 	padding:0pt 25pt!important;
 	box-shadow:5pt 5pt 5pt grey!important;
+	list-style-type:disc!important;
 }
 
 .ulOne ul li{
@@ -39,4 +47,36 @@ h2{
 
 .ulOne ul{
 	margin-bottom:15pt!important;
+}
+
+.field{
+	padding:5px 10px!important;
+	border:1px solid blue!important;
+	border-radius:15px!important;
+	background-color:#dceaea!important;
+	text-align:left!important;
+	box-shadow:5px 5px 3px grey!important;
+}
+
+.field legend{
+	margin-left:15px!important;
+	text-align:center!important;
+	font-size:22px!important;
+	font-weight:bold!important;
+	text-decoration:underline!important;
+	background-color:#dceaea!important;
+	border-radius:15px!important;
+	border:1px solid blue!important;
+	padding:3px 10px!important;
+	box-shadow:3px 3px 5px grey!important;
+}
+
+.divleft{
+	float:left!important;
+	width:45%!important;
+}
+
+.divright{
+	float:right!important;
+	width:45%!important;
 }
