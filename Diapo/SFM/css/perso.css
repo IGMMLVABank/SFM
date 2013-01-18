@@ -1,0 +1,42 @@
+img{
+	border-radius:25pt;
+
+
+
+}
+
+img{
+	border: 0.0pt none!important;
+	border-radius:15px!important;
+	box-shadow:5pt 5pt 5pt grey!important;
+
+}
+
+h1{
+	letter-spacing:normal!important;
+	text-shadow:5pt 5pt 5pt grey!important;
+}
+
+h2{
+	text-shadow:2pt 2pt 2pt grey!important;
+}
+
+.ulOne{
+	margin-top: 5.0pt!important;
+	font-size: 18.0pt!important;
+	background-color: #dceaea!important;
+	border: 5pt outset blue!important;
+	border-radius:15pt!important;
+	color:black!important;
+	padding:0pt 25pt!important;
+	box-shadow:5pt 5pt 5pt grey!important;
+}
+
+.ulOne ul li{
+	margin-bottom:-10pt!important;
+	margin-top:-10pt!important;
+}
+
+.ulOne ul{
+	margin-bottom:15pt!important;
+}

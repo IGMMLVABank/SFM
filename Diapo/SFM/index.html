@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="iso-8859-1">
+
+		<title>MicroGeno</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+		
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/sky.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+		<link rel="stylesheet" href="css/perso.css">
+		
+		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+		<script>
+			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1 >
+						<font face="impact">
+							<span style="font-size: 45.0pt;line-height: 115.0%;">MicroGeno</span>
+						</font>
+					</h1>
+					<p>
+						<span style="font-size: 26.0pt;line-height: 115.0%;">Bases de données internet de suivi des agents infectieux</span>
+					</p>
+					<img src="img/capturetxl.png" height="350" width="558">
+				</section>
+				
+				<section>
+					<h2>Principes</h2>
+					<ul class="ulOne">
+						<li>Pouvoir representer ses données de typage:</li>
+						<li style="list-style-type: none;">
+							<ul style="font-size: 14.0pt;">
+								<li>MLVA</li>
+								<li>MLST</li>
+								<li>SNP</li>
+								<li>Spoligotyping</li>
+								<li>CRISPR</li>
+							</ul>
+						</li>
+						<li>Gerer ses données</li>
+						<li>Comparer des echantillons sur les bases de données</li>
+						<li>Generer automatiquementles genotypes des vos données</li>
+						<li>Conglomerer plusieurs bases de données ensemble</li>
+					</ul>
+				</section>
+				
+				<section>
+					<h2>Creation</h2>
+					<br>
+					<ul class="ulOne">
+						<li><u>Matériel requis</u>: Connexion, un fichier csv</li>
+						<li>Peut de manipulation (minima de 6 clics)</li>
+						<li>Plusieurs options ajoutables (géolocalisation, panel...)</li>
+						<li>Création de base de donnée rapide</li>
+					</ul>
+				</section>
+				
+				<section>
+					<section>
+						<h2>Exploitation</h2>
+						<br>
+						<ul class="ulOne">
+							<li>Visualiser les bases de données completes</li>
+							<li>Rechercher les souches les plus proches</li>
+							<li>Représenter les géolocalisations et les arbres</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Visualiser</h2>
+						<img src="img/view.png" style="width:2000px;">
+						<ul class="ulOne">
+							<li>Masquer,trier les colonnes</li>
+							<li>Modifier l'affichage des données (octal,lien...)</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Rechercher</h2>
+						<img src="img/query.png" style="height:600px;">
+						<ul class="ulOne">
+							<li>Masquer les colonnes et les genotypes identiques</li>
+							<li>Modifier l'affichage des données (octal,nom et commentaire des génotypes)</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Représenter</h2>
+						<img src="img/geo.png" style="height:550px;">
+						<ul class="ulOne">
+							<li>Les géolocalisations</li>
+							<li>Les dendrogrammes</li>
+						</ul>
+					</section>
+				</section>
+				
+				<section>
+					<section>
+						<h2>Gestion</h2>
+						<br>
+						<ul class="ulOne">
+							<li>Editer les souches, les marqueurs</li>
+							<li>Panels et Genotypes</li>
+							<li>Partage et mise en publique</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Editer</h2>
+						<img src="img/edit.png" style="width:2000px;">
+						<ul class="ulOne">
+							<li>Modifier les metadata, les marqueurs...</li>
+							<li>Maitriser les données: ajout, modification et suppression</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Classifier</h2>
+						<img src="img/geno.png" style="height:600px;">
+						<ul class="ulOne">
+							<li>Créer des panels pour vos marqueurs</li>
+							<li>Generation et gestion automatique de vos genotypes</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Partager</h2>
+						<img src="img/share.png" style="height:650px;">
+						<ul class="ulOne">
+							<li>Partager des données avec d'autres utilisateurs</li>
+							<li>Mettre en publique vos données</li>
+							<li>Masquer l'éxistance de vos données</li>
+						</ul>
+					</section>
+				</section>
+				
+				<section>
+					<section>
+						<h2>Aggregation</h2>
+						<br>
+						<ul class="ulOne">
+							<li>Aggreger plusieurs base de données</li>
+							<li>Mise en commun et Interraction</li>
+							<li>Contrôle de vos données</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Aggreger</h2>
+						<img src="img/agg.png" style="width:600px;">
+						<ul class="ulOne">
+							<li>Creer votre propre aggregated</li>
+							<li>Colaborer avec une déjà existante</li>
+						</ul>
+					</section>
+					<section>
+						<h2 style="margin-bottom:0px;">Fusionner</h2>
+						<img src="img/fusion.png" style="height:700px;">
+						<ul class="ulOne">
+							<li>Mise en commun de l'ensemble des bases de données d'une "Aggregated"</li>
+							<li>Accès aux differents elements simultanement (géolocalisation, query...)</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Contrôler</h2>
+						<ul class="ulOne">
+							<li>Mise à jour automatique de vos données sur l'aggregated</li>
+							<li>Enlever les bases plus souhaités de votre aggregated</li>
+							<li>Ne plus faire partie d'une aggregated en un simple clic</li>
+						</ul>
+					</section>
+				</section>
+            </div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/none
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/showdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+					// { src: 'plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
