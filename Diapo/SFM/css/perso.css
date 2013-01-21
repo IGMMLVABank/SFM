@@ -25,10 +25,10 @@ h2{
 
 .ulSmall{
 	font-size: 18.0pt!important;
+	list-style-image:url("http://img405.imageshack.us/img405/6519/puce2.png")!important;
 }
 
 .ulOne{
-	list-style-image:url("img/puce2.png")!important;
 	margin-top: 5.0pt!important;
 	font-size: 18.0pt!important;
 	background-color: #dceaea!important;
@@ -38,6 +38,10 @@ h2{
 	padding:0pt 25pt!important;
 	box-shadow:5pt 5pt 5pt grey!important;
 	list-style-type:disc!important;
+	/* Donner le fichier ne marche pas mais un lien marche...
+	list-style-image:url("img/puce2.png")!important;
+	*/
+	list-style-image:url("http://img405.imageshack.us/img405/6519/puce2.png")!important;
 }
 
 .ulOne ul li{
@@ -47,6 +51,7 @@ h2{
 
 .ulOne ul{
 	margin-bottom:15pt!important;
+	list-style-image:none!important;
 }
 
 .field{
