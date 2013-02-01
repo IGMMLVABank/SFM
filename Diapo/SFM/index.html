@@ -4,7 +4,7 @@
 	<head>
 		<meta charset="iso-8859-1">
 
-		<title>MicroGeno</title>
+		<title>MLVABank</title>
 
 		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
 		<meta name="author" content="Hakim El Hattab">
@@ -36,55 +36,57 @@
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
 				<section>
-					<h1 >
-						<font face="impact">
-							<span style="font-size: 45.0pt;line-height: 115.0%;">MLVABank</span>
-						</font>
-					</h1>
-					<p>
-						<span style="font-size: 26.0pt;line-height: 115.0%;">Bases de données internet de suivi des agents infectieux</span>
-					</p>
-					<img src="img/capturetxl.png" height="350" width="558">
-					<p style="text-align:right;">
-						<img src="img/IgmLogo.png" width="25%">
-					</p>
-				</section>
-				
-				<section>
-					<h2>Principes</h2>
-					<ul class="ulOne">
-						<li>Pouvoir representer ses données de typage:</li>
-						<li style="list-style-type: none;list-style-image:none;">
-							<ul style="font-size: 14.0pt;">
-								<li>MLVA</li>
-								<li>MLST</li>
-								<li>SNP</li>
-								<li>Spoligotyping</li>
-								<li>CRISPR</li>
-							</ul>
-						</li>
-						<li>Gerer ses données</li>
-						<li>Comparer des echantillons sur les bases de données</li>
-						<li>Generer automatiquementles genotypes des vos données</li>
-						<li>Conglomerer plusieurs bases de données ensemble</li>
-					</ul>
+					<h1><img src="img/logo_PSUD_new.jpg" style="width:150px;float:left;">MLVABank<img src="img/IgmLogo.png" style="width:150px;float:right;margin-top:35px;"></h1>
+					<p class="chapeau">Bases de données internet de genotypage</p>
+					<br  style="clear:both!important;margin:0px;padding:0px;border:0;height:0;line-height:1px;">
+					<img style="margin:0px;width:600px;height:100%;" src="img/capturetxl.png">
+					<p style="text-align:center;font-size:16px;">par Christophe Tourterel</p>
 				</section>
 				<section>
 					<section>
-						<h2>Creation</h2>
-						<br>
+						<h2>Objectifs</h2>
+						<div class="diva"><a href="http://mlva.u-psud.fr">http://mlva.u-psud.fr</a></div>
 						<ul class="ulOne">
-							<li><u>Matériel requis</u>: Connexion, un fichier csv</li>
-							<li>Peut de manipulation (minima de 6 clics)</li>
+							<li>Pouvoir représenter ses données de typage :</li>
+							<li style="list-style-type: none;list-style-image:none;">
+								<ul style="font-size: 14.0pt;">
+									<li>VNTR (MLVA)</li>
+									<li>MLST</li>
+									<li>SNP</li>
+									<li>Spoligotyping</li>
+									<li>CRISPR</li>
+								</ul>
+							</li>
+							<li>Gérer ses données</li>
+							<li>Comparer des échantillons sur les bases de données</li>
+							<li>Générer automatiquement les génotypes de vos données</li>
+							<li>Agglomérer plusieurs bases de données ensemble</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Principes</h2>
+						<img style="box-shadow:none!important;" src="img/sch1.png">
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>Création</h2>
+						<br>
+						<ul class="ulOne" style="box-shadow:5px 5px 10px #ff5555!important;">
+							<li><u>Matériel requis</u> : Connexion, un fichier csv</li>
+							<li>Peu de manipulations (minimum de 6 clics)</li>
 							<li>Plusieurs options ajoutables (géolocalisation, panel...)</li>
-							<li>Création de base de donnée rapide</li>
+							<li>Création rapide de bases de données</li>
 						</ul>
 					</section>
 					<section>
 						<h2>Importer</h2>
-						<img src="img/import.png">
-						<ul class="ulOne">
-							<li>Choix des options(géo,panel,etc...)</li>
+						<div class="left">CSV:</div>
+						<img src="img/csv.png" style="box-shadow:5px 5px 10px #ff5555!important;">
+						<div class="left">Resultat:</div>
+						<img src="img/result.png" style="box-shadow:5px 5px 10px #ff5555!important;">
+						<ul class="ulOne" style="box-shadow:5px 5px 10px #ff5555!important;">
+							<li>Choix des options (géo,panel,etc...)</li>
 							<li>Selection rapide des types de données</li>
 						</ul>
 					</section>
@@ -93,32 +95,32 @@
 					<section>
 						<h2>Exploitation</h2>
 						<br>
-						<ul class="ulOne">
-							<li>Visualiser les bases de données completes</li>
+						<ul class="ulOne" style="box-shadow:5px 5px 10px #5555ff!important;">
+							<li>Visualiser les bases de données complêtes</li>
 							<li>Rechercher les souches les plus proches</li>
 							<li>Représenter les géolocalisations et les arbres</li>
 						</ul>
 					</section>
 					<section>
 						<h2>Visualiser</h2>
-						<img src="img/view.png">
-						<ul class="ulOne">
-							<li>Masquer,trier les colonnes</li>
-							<li>Modifier l'affichage des données (octal,lien...)</li>
+						<img src="img/view.png" style="box-shadow:5px 5px 10px #5555ff!important;">
+						<ul class="ulOne" style="box-shadow:5px 5px 10px #5555ff!important;">
+							<li>Masquer, trier les colonnes</li>
+							<li>Modifier l'affichage des données (octal, lien...)</li>
 						</ul>
 					</section>
 					<section>
 						<h2>Rechercher</h2>
-						<img src="img/query.png">
-						<ul class="ulOne">
-							<li>Masquer les colonnes et les genotypes identiques</li>
-							<li>Modifier l'affichage des données (octal,nom et commentaire des génotypes)</li>
+						<img src="img/query.png" style="box-shadow:5px 5px 10px #5555ff!important;">
+						<ul class="ulOne" style="box-shadow:5px 5px 10px #5555ff!important;">
+							<li>Masquer les colonnes et les génotypes identiques</li>
+							<li>Modifier l'affichage des données (octal, nom et commentaire des génotypes)</li>
 						</ul>
 					</section>
 					<section>
 						<h2>Représenter</h2>
-						<img src="img/geo.png">
-						<ul class="ulOne">
+						<img src="img/geo.png" style="box-shadow:5px 5px 10px #5555ff!important;">
+						<ul class="ulOne" style="box-shadow:5px 5px 10px #5555ff!important;">
 							<li>Les géolocalisations</li>
 							<li>Les dendrogrammes</li>
 						</ul>
@@ -129,71 +131,71 @@
 					<section>
 						<h2>Gestion</h2>
 						<br>
-						<ul class="ulOne">
+						<ul class="ulOne" style="box-shadow:5px 5px 10px #ffaa00!important;">
 							<li>Editer les souches, les marqueurs</li>
-							<li>Panels et Genotypes</li>
-							<li>Partage et mise en publique</li>
+							<li>Panels et Génotypes</li>
+							<li>Partager et rendre publique</li>
 						</ul>
 					</section>
 					<section>
-						<h2>Editer</h2>
-						<img src="img/edit.png">
-						<ul class="ulOne">
+						<h2>Éditer</h2>
+						<img src="img/edit.png" style="box-shadow:5px 5px 10px #ffaa00!important;">
+						<ul class="ulOne" style="box-shadow:5px 5px 10px #ffaa00!important;">
 							<li>Modifier les metadata, les marqueurs...</li>
-							<li>Maitriser les données: ajout, modification et suppression</li>
+							<li>Maîtriser les données : ajout, modification et suppression</li>
 						</ul>
 					</section>
 					<section>
 						<h2>Classifier</h2>
-						<img src="img/geno.png">
-						<ul class="ulOne">
+						<img src="img/geno.png" style="box-shadow:5px 5px 10px #ffaa00!important;">
+						<ul class="ulOne" style="box-shadow:5px 5px 10px #ffaa00!important;">
 							<li>Créer des panels pour vos marqueurs</li>
-							<li>Generation et gestion automatique de vos genotypes</li>
+							<li>Génération et gestion automatique de vos génotypes</li>
 						</ul>
 					</section>
 					<section>
 						<h2>Partager</h2>
-						<img src="img/share.png">
-						<ul class="ulOne">
+						<img src="img/share.png" style="box-shadow:5px 5px 10px #ffaa00!important;">
+						<ul class="ulOne" style="box-shadow:5px 5px 10px #ffaa00!important;">
 							<li>Partager des données avec d'autres utilisateurs</li>
 							<li>Mettre en publique vos données</li>
-							<li>Masquer l'éxistance de vos données</li>
+							<li>Masquer l'existence de vos données</li>
 						</ul>
 					</section>
 				</section>
 				
 				<section>
 					<section>
-						<h2>Aggregation</h2>
+						<h2>Agrégation</h2>
 						<br>
-						<ul class="ulOne">
-							<li>Aggreger plusieurs base de données</li>
-							<li>Mise en commun et Interraction</li>
+						<ul class="ulOne" style="box-shadow:5px 5px 10px #22ff22!important;">
+							<li>Agréger plusieurs bases de données</li>
+							<li>Mise en commun et interaction</li>
 							<li>Contrôle de vos données</li>
 						</ul>
 					</section>
 					<section>
-						<h2>Aggreger</h2>
-						<img src="img/agg.png">
-						<ul class="ulOne">
-							<li>Creer votre propre aggregated</li>
-							<li>Colaborer avec une déjà existante</li>
+						<h2>Agréger</h2>
+						<img src="img/sch2.png" style="box-shadow:5px 5px 10px #22ff22!important;">
+						<ul class="ulOne" style="box-shadow:5px 5px 10px #22ff22!important;">
+							<li>Créer votre propre "Aggregated"</li>
+							<li>Collaborer avec une déjà existante</li>
 						</ul>
 					</section>
 					<section>
 						<h2 style="margin-bottom:0px;">Fusionner</h2>
-						<img src="img/fusion.png">
-						<ul class="ulOne">
+						<img src="img/fusion2.png" style="box-shadow:5px 5px 10px #22ff22!important;">
+						<ul class="ulOne" style="box-shadow:5px 5px 10px #22ff22!important;">
 							<li>Mise en commun de l'ensemble des bases de données d'une "Aggregated"</li>
-							<li>Accès aux differents elements simultanement (géolocalisation, query...)</li>
+							<li>Accès aux différents éléments simultanément (géolocalisation, query...)</li>
 						</ul>
 					</section>
 					<section>
 						<h2>Contrôler</h2>
-						<ul class="ulOne">
+						<ul class="ulOne" style="box-shadow:5px 5px 10px #22ff22!important;">
 							<li>Mise à jour automatique de vos données sur l'aggregated</li>
-							<li>Enlever les bases plus souhaités de votre aggregated</li>
-							<li>Ne plus faire partie d'une aggregated en un simple clic</li>
+							<li>Enlever les bases non souhaitées de votre aggregated</li>
+							<li>Ne plus faire partie d'une aggregated d'un simple clic</li>
 						</ul>
 					</section>
 				</section>
@@ -203,7 +205,7 @@
 				<section>
 					<h2>Remerciements</h2>
 					<fieldset class="field divleft">
-						<legend>Equipe GPMS</legend>
+						<legend>Équipe GPMS</legend>
 						<ul class="ulSmall">
 							<li>Gilles VERGNAUD</li>
 							<li>Christine POURCEL</li>
@@ -212,7 +214,6 @@
 							<li>Yolande HAUCK</li>
 							<li>Christiane ESSOH</li>
 							<li>Yann BLOUIN</li>
-							<li>Christophe TOURTEREL</li>
 						</ul>
 					</fieldset>
 					<fieldset class="field divright">

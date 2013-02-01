@@ -1,8 +1,10 @@
-img{
-	border-radius:25pt;
 
-
-
+.diva{
+	background-color:white!important;
+	border-radius:15px!important;
+	padding:0px 5px!important;
+	width:50%!important;
+	margin:auto!important;
 }
 
 img{
@@ -10,17 +12,27 @@ img{
 	border-radius:15px!important;
 	box-shadow:5pt 5pt 5pt grey!important;
 	height:100%!important;
-	max-height:600px!important;
+	max-height:450px!important;
 
 }
 
 h1{
 	letter-spacing:normal!important;
 	text-shadow:5pt 5pt 5pt grey!important;
+	font-size: 45pt!important;
+	line-height: 115.0%!important;
+	font-family:Impact, Charcoal, sans-serif!important;
+	margin:0px!important;
 }
 
 h2{
 	text-shadow:2pt 2pt 2pt grey!important;
+}
+
+.chapeau{
+	font-size: 20.0pt!important;
+	line-height: 115.0%!important;
+	margin:0px!important;
 }
 
 .ulSmall{
@@ -74,6 +86,15 @@ h2{
 	border:1px solid blue!important;
 	padding:3px 10px!important;
 	box-shadow:3px 3px 5px grey!important;
+}
+
+.left{
+	text-align:left!important;
+	margin:0px!important;
+	padding:0px!important;
+	font-size:28px!important;
+	font-style:italic!important;
+
 }
 
 .divleft{
